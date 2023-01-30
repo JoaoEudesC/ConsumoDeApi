@@ -1,0 +1,49 @@
+
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: rgb(5, 68, 206);
+}
+
+
+html{
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+#mover{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.comum{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid gold;
+    border-radius: 60px;
+    box-shadow: 2px 2px 2px 2px black;
+    
+}
+
+
+#grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+
+
+.sumir{
+    display: none;
+}
